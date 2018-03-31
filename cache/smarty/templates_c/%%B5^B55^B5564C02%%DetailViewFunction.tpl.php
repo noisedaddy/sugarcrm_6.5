@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2018-03-31 13:06:32
-         compiled from include/SugarFields/Fields/Bool/DetailView.tpl */ ?>
+<?php /* Smarty version 2.6.11, created on 2018-03-31 21:36:46
+         compiled from include/SugarFields/Fields/Base/DetailViewFunction.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 'include/SugarFields/Fields/Bool/DetailView.tpl', 38, false),array('function', 'sugarvar_connector', 'include/SugarFields/Fields/Bool/DetailView.tpl', 45, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 'include/SugarFields/Fields/Base/DetailViewFunction.tpl', 38, false),array('function', 'sugarvar_connector', 'include/SugarFields/Fields/Base/DetailViewFunction.tpl', 40, false),)), $this); ?>
 {*
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -39,18 +39,8 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 
  ********************************************************************************/
 
 *}
-{if strval(<?php echo smarty_function_sugarvar(array('key' => 'value','stringFormat' => 'false'), $this);?>
-) == "1" || strval(<?php echo smarty_function_sugarvar(array('key' => 'value','stringFormat' => 'false'), $this);?>
-) == "yes" || strval(<?php echo smarty_function_sugarvar(array('key' => 'value','stringFormat' => 'false'), $this);?>
-) == "on"} 
-{assign var="checked" value="CHECKED"}
-{else}
-{assign var="checked" value=""}
-{/if}
-<input type="checkbox" class="checkbox" name="<?php echo smarty_function_sugarvar(array('key' => 'name'), $this);?>
-" id="<?php echo smarty_function_sugarvar(array('key' => 'name'), $this);?>
-" value="<?php echo smarty_function_sugarvar(array('key' => 'value','stringFormat' => 'false'), $this);?>
-" disabled="true" {$checked}>
+<?php echo smarty_function_sugarvar(array('key' => 'value'), $this);?>
+
 <?php if (! empty ( $this->_tpl_vars['displayParams']['enableConnectors'] )):  echo smarty_function_sugarvar_connector(array('view' => 'DetailView'), $this);?>
  
 <?php endif; ?>

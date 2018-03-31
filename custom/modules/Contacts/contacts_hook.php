@@ -10,8 +10,7 @@ class add_name_class {
 
         if (!stristr($focus->first_name, "(this is appended)")) {
             $focus->first_name .= "(this is appended)";
-        }
-        
+        }        
     }
 
 }

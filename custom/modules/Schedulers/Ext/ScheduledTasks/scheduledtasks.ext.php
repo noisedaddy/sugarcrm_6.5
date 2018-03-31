@@ -12,7 +12,7 @@
     function custom_job()
     {
         if (function_exists('word_count'))
-            $w = word_count("adasd adsasd dsadas");  
+            $w = word_count(0);  
         else 
             $w = 'func not exists';
         file_put_contents('sugarcrm.log', "I'm a ScheduledTask".$w, FILE_APPEND);

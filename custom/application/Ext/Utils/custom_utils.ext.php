@@ -3,7 +3,7 @@
 
 
 //require_once('include/utils.php');  
-   function word_count($word)
+   function word_count($word = '')
     {
        if (is_string($word) && !empty($word)){
            return (int)str_word_count($word);

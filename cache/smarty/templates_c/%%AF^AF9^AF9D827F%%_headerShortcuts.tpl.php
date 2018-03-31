@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2018-03-31 13:06:22
+<?php /* Smarty version 2.6.11, created on 2018-03-31 21:36:43
          compiled from themes/Sugar5/tpls/_headerShortcuts.tpl */ ?>
 <?php if (count ( $this->_tpl_vars['SHORTCUT_MENU'] ) > 0): ?>
 <div id="shortcuts" class="headerList">

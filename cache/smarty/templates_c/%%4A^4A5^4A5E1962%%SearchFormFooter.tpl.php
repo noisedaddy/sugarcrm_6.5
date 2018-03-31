@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2018-03-31 13:06:29
-         compiled from cache/modules/Schedulers/SearchFormFooter.tpl */ ?>
+<?php /* Smarty version 2.6.11, created on 2018-03-31 21:37:03
+         compiled from cache/modules/Contacts/SearchFormFooter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimagepath', 'cache/modules/Schedulers/SearchFormFooter.tpl', 11, false),array('function', 'sugar_translate', 'cache/modules/Schedulers/SearchFormFooter.tpl', 12, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimagepath', 'cache/modules/Contacts/SearchFormFooter.tpl', 11, false),array('function', 'sugar_translate', 'cache/modules/Contacts/SearchFormFooter.tpl', 12, false),)), $this); ?>
 
 </form>
 <?php echo '
