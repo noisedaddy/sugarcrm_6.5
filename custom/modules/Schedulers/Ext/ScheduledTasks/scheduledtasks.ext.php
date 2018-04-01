@@ -3,11 +3,6 @@
 
 
 
-        file_put_contents('/sugarcrm.log', "I'm a ScheduledTask", FILE_APPEND);
-
-
-
-
    array_push($job_strings, 'custom_job');
     function custom_job()
     {
