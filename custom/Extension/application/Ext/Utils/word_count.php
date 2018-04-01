@@ -1,5 +1,5 @@
 <?php
-//require_once('include/utils.php');  
+//will be tested in Scheduler task
    function word_count($word = '')
     {
        if (is_string($word) && !empty($word)){
