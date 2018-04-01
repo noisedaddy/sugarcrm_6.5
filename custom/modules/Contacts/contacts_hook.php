@@ -1,6 +1,5 @@
 <?php
 
-//prevents directly accessing this file from a web browser
 if (!defined('sugarEntry') || !sugarEntry)
     die('Not A Valid Entry Point');
 

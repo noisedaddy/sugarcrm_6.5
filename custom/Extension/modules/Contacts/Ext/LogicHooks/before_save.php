@@ -1,6 +1,6 @@
 <?php
 
-$hook_array['before_save'][] = Array(
+    $hook_array['before_save'][] = Array(
         1, 
         'Custom Logic', 
         'custom/modules/Contacts/contacts_hook.php', 
