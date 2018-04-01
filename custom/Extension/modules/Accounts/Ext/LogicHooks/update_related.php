@@ -1,5 +1,5 @@
 <?php
-
+//accounts - contacts relation hook
  $hook_array['before_save'][] = Array(
         1, 
         'Custom Logic', 
